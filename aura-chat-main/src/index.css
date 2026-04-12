@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 224 25% 4%;
+    --foreground: 220 20% 85%;
+
+    --card: 224 25% 7%;
+    --card-foreground: 220 20% 85%;
+
+    --popover: 224 25% 7%;
+    --popover-foreground: 220 20% 85%;
+
+    --primary: 250 89% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 224 20% 12%;
+    --secondary-foreground: 220 20% 85%;
+
+    --muted: 224 20% 14%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 250 89% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 100% / 0.06;
+    --input: 0 0% 100% / 0.08;
+    --ring: 250 89% 65%;
+
+    --radius: 1.5rem;
+
+    --surface: 224 25% 7%;
+    --surface-hover: 224 25% 10%;
+    --glow-primary: 250 89% 65%;
+
+    --sidebar-background: 224 25% 4%;
+    --sidebar-foreground: 220 20% 85%;
+    --sidebar-primary: 250 89% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 224 20% 12%;
+    --sidebar-accent-foreground: 220 20% 85%;
+    --sidebar-border: 0 0% 100% / 0.06;
+    --sidebar-ring: 250 89% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
