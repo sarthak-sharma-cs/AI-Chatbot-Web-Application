@@ -78,6 +78,10 @@ The project is deployed using Vercel.
 * Environment Variable: GEMINI_API_KEY
 
 ---
+## Live Application
+
+[Open Live App](https://ai-chatbot-web-application.vercel.app/)
+
 
 ## Author
 
