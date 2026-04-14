@@ -40,7 +40,7 @@ aura-chat-main/
 ### Clone the repository
 
 ```
-git clone <https://github.com/sarthak-sharma-cs/AI-Chatbot-Web-Application>
+git clone https://github.com/sarthak-sharma-cs/AI-Chatbot-Web-Application
 ```
 
 ### Navigate to project
